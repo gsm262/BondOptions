@@ -41,6 +41,7 @@ private:
 
 // To do:
 // - Implement iterator for CashFlow class (basically just a wrapper for vector iterator
+// - Separate floating and fixed interest?
 
 class CashFlow {
 public:
@@ -58,6 +59,7 @@ public:
     
     IndividualCashFlow& GetNextCf();
     IndividualCashFlow& GetPreviousCf();
+    void print();
     
 private:
     /*
